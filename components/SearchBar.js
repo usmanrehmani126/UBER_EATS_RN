@@ -7,7 +7,7 @@ const SearchBar = ({ cityHandler }) => {
   return (
     <View style={{ marginTop: 15, flexDirection: "row" }}>
       <GooglePlacesAutocomplete
-        query={{ key: "AIzaSyBpmlnshHygLsoY4F5QxrOZMYcU_wzyzWg" }}
+        query={{ key: "your Api key" }}
         placeholder="Search"
         styles={{
           textInput: {

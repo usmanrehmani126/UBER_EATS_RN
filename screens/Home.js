@@ -7,7 +7,7 @@ import RestaurantItem, { localRestaurants } from "../components/RestaurantItem";
 import { Divider } from "react-native-elements";
 import BottomTabs from "../components/BottomTabs";
 const YELP_API_KEY =
-  "nN8p45PwOgVtAfhMyZGxZRXnVCDAX6xgCEDgKEBbRNGVox6uGsHvCdq4mLLhmbzfPnWIcLd8IHhCvvocQfb5FCInmYNAwHTSrw0zr5tYLzDG51B9EoyMchTXJ7OZZHYx";
+  "your API key";
 const Home = () => {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
   const [activeTab, setActiveTab] = useState("Delivery");
